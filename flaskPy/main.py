@@ -5,6 +5,7 @@ from logging.handlers import RotatingFileHandler
 from flask import Flask
 import flask
 from inspect import currentframe, getframeinfo
+
 app = Flask(__name__)
 
 @app.route('/Plugin.Activate', methods=["POST"])
